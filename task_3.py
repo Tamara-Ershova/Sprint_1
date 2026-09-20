@@ -8,10 +8,8 @@ world_champions = {
 
 world_champions[2022] ='Аргентина'
 
-world_champions_keys = list(world_champions.keys())
-
-for year in world_champions_keys:
-    print(year,'-',world_champions[year])
+for year, country in world_champions.items():
+    print(year, '-', country)
 
 country = 'Италия'
 
